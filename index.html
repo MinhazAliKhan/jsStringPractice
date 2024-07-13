@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tailwindhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM learning</title>
+  </head>
+  <body>
+    <h1>Mastermind School</h1>
+    <hr />
+    <p>Understand the DOM tree Structure</p>
+    <p>Its easy. help JS to communicate with</p>
+
+    <script>
+      let parent = document;
+      let bodyElements = parent.body;
+      let headElements = parent.head;
+
+      let bodyChild = bodyElements.childNodes;
+      let bodyChildren = bodyElements.children;
+
+      console.log(bodyChild);
+      console.log(bodyChildren);
+    </script>
+  </body>
+</html>
